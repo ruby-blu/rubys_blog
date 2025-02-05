@@ -17,4 +17,3 @@ about:
 ---
 
 About this blog
-THIS IS A TEST
