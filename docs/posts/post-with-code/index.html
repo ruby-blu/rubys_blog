@@ -9,7 +9,7 @@
 <meta name="author" content="Ruby Higdon">
 <meta name="dcterms.date" content="2025-02-14">
 
-<title>Machine Learning Model Evaluation – Ruby Higdon</title>
+<title>Humanizing Data – Ruby Higdon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,18 +115,37 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-problem" id="toc-the-problem" class="nav-link active" data-scroll-target="#the-problem">The Problem</a></li>
+  <li><a href="#the-why" id="toc-the-why" class="nav-link" data-scroll-target="#the-why">The Why</a>
+  <ul class="collapse">
+  <li><a href="#the-benefits" id="toc-the-benefits" class="nav-link" data-scroll-target="#the-benefits">The Benefits</a></li>
+  <li><a href="#the-avoided-downfalls" id="toc-the-avoided-downfalls" class="nav-link" data-scroll-target="#the-avoided-downfalls">The Avoided Downfalls</a></li>
+  </ul></li>
+  <li><a href="#the-how" id="toc-the-how" class="nav-link" data-scroll-target="#the-how">The How</a>
+  <ul class="collapse">
+  <li><a href="#ask-the-right-questions" id="toc-ask-the-right-questions" class="nav-link" data-scroll-target="#ask-the-right-questions">Ask the Right Questions</a></li>
+  <li><a href="#go-beyond-the-numbers" id="toc-go-beyond-the-numbers" class="nav-link" data-scroll-target="#go-beyond-the-numbers">Go Beyond the Numbers</a></li>
+  <li><a href="#think-about-the-impact" id="toc-think-about-the-impact" class="nav-link" data-scroll-target="#think-about-the-impact">Think About the Impact</a></li>
+  <li><a href="#bring-stories-into-your-work" id="toc-bring-stories-into-your-work" class="nav-link" data-scroll-target="#bring-stories-into-your-work">Bring Stories Into Your Work</a></li>
+  <li><a href="#remember-data-represents-people" id="toc-remember-data-represents-people" class="nav-link" data-scroll-target="#remember-data-represents-people">Remember: Data Represents People!</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Machine Learning Model Evaluation</h1>
+<h1 class="title">Humanizing Data</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">machine learning</div>
-    <div class="quarto-category">code</div>
+    <div class="quarto-category">ethics</div>
   </div>
   </div>
 
@@ -156,9 +175,63 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a post with executable code. <img src="thumbnail3.jpg" class="img-fluid"></p>
+<p>Why People Matter More Than Metrics</p>
+<p><img src="people.jpg" class="img-fluid"></p>
+<section id="the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem">The Problem</h2>
+<p>Today’s world is all about quick and simple. As AI and other technologies advance, we are able to accomplish increasingly impressive feats in less and less time. And while that has certainly been the case in the data science field, it’s also introduced the danger of oversimplifying the data we are working with.</p>
+<p>Just as important as pretty visuals and tidy data is a deep understanding of the real people behind the numbers. Understanding the individuals represented in each dataset and the human lives that could be affected by your analyses is what really sets an ethical data scientist apart from the rest.</p>
+</section>
+<section id="the-why" class="level2">
+<h2 class="anchored" data-anchor-id="the-why">The Why</h2>
+<p>Taking time to humanize datasets, well, takes time! It requires flexing muscles and practicing skills that may feel a little rusty or nonexistent at first. So why bother? Wouldn’t it be so much easier to plug in the numbers and be done? There are countless reasons to slow down and understand the people behind the numbers, one of the most important being the ethical ramifications of not engaging in this process. Let’s look into some personal and real-world examples that illustrate some of the potential outcomes of taking your time to know the people vs.&nbsp;just running the numbers.</p>
+<section id="the-benefits" class="level3">
+<h3 class="anchored" data-anchor-id="the-benefits">The Benefits</h3>
+<p>I currently work as a student assistant in the BYU-Idaho Executive Office. As part of my job, I’ve recently had the opportunity to work closely with the president of the university in his efforts to increase donations to the university. Over the past year, the university has seen a 62% increase in said donations. What, you might ask, has led to this increase? While there are certainly many factors at play here, I have been overwhelmed by President Meredith’s ability and insistence on seeing the individuals behind the numbers.</p>
+<p><img src="president.avif" style="float: right; margin-left: 10px; width: 400px;"></p>
+<p>On top of the typical crazy schedule of a university president, President Meredith makes time to call, write letters to, and visit with many of those individual donors. He knows them by name and makes a tremendous effort to create personal relationships with them. This is not something that he reserves solely for donors. He strives in all his interactions to see students, faculty, and staff as more than just numbers and statistics but as real people with real value.</p>
+<p>In multiple meetings with the president concerning donations to the university, I have watched as he’s gone name-by-name through the data and learned all he can about each individual. While he loves data and makes data analysis a priority, he does not forget or take for granted the people behind each data point. And it has led to incredible results for this campus.</p>
+</section>
+<section id="the-avoided-downfalls" class="level3">
+<h3 class="anchored" data-anchor-id="the-avoided-downfalls">The Avoided Downfalls</h3>
+<p>Now that we’ve discussed one potential benefit, let’s take a look at some of the problems that arise when people fail to take the individuals into consideration.</p>
+<p>One popular example is the Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) Recidivism Algorithm. This algorithm determines the likelihood of someone becoming a repeat offender, and is used to make informed decisions about things such as sentencing and parole. It was first developed in 1998, and has been used to assess over one million offenders. However, there has been a significant amount of controversy surrounding the ethics of this algorithm.</p>
+<p>A 2016 ProPublica investigation into this algorithm found an alarming amount of bias, specifically in regards to the race of the offender. The following chart included in their report shows the distribution of COMPAS decile scores (the likelihood of being a repeat offender). Each of the individuals represented in this data were analyzed with the COMPAS algorithm and had not been arrested for a new offense within two years.</p>
+<p><img src="chart.webp" class="img-fluid"></p>
+<p>Clearly, there is a shocking tendency for the algorithm to give black defendants a higher decile score. These charts specifically show us that these scores are just wrong. The worst part of all of this is that this algorithm is being used to determine sentence length, sentence severity, and possibility for parole. It is having a real impact on millions of families and individuals. And it’s not unique in its bias!</p>
+<p>There are countless examples of this: algorithms that make decisions based on real data that has been impacted by decades of social prejudice and injustice. While the data scientist behind these algorithms may not be the problem, they can certainly be part of the solution. And so can you! Let’s dive a bit into what we can do to help in the humanization process.</p>
+</section>
+</section>
+<section id="the-how" class="level2">
+<h2 class="anchored" data-anchor-id="the-how">The How</h2>
+<p>So, how do we ensure that we see the people behind the data? It starts with a shift in mindset—a conscious effort to prioritize people over mere numbers. Here are a few ways to begin integrating this perspective into your work:</p>
+<section id="ask-the-right-questions" class="level3">
+<h3 class="anchored" data-anchor-id="ask-the-right-questions">Ask the Right Questions</h3>
+<p>Before diving into an analysis, take a step back and ask: Who is represented in this data? Whose voices are missing? How was this data collected, and what biases might exist?</p>
+</section>
+<section id="go-beyond-the-numbers" class="level3">
+<h3 class="anchored" data-anchor-id="go-beyond-the-numbers">Go Beyond the Numbers</h3>
+<p>Data can only tell part of the story. Whenever possible, seek out real experiences that bring depth and context to the figures you’re analyzing. If you’re working with healthcare data, take time to understand the realities of the patients behind the statistics. If you’re analyzing student performance, consider the challenges those students face beyond just their grades.</p>
+</section>
+<section id="think-about-the-impact" class="level3">
+<h3 class="anchored" data-anchor-id="think-about-the-impact">Think About the Impact</h3>
+<p>Every data-driven decision has real consequences. Before publishing an analysis, take a moment to reflect on who benefits from your work, who might be harmed by it, and what steps you can take to ensure fairness and accuracy.</p>
+</section>
+<section id="bring-stories-into-your-work" class="level3">
+<h3 class="anchored" data-anchor-id="bring-stories-into-your-work">Bring Stories Into Your Work</h3>
+<p>Data is powerful, but stories are what move people. Whenever possible, pair your insights with real-world narratives that remind your audience of the human experiences behind the numbers. This not only enhances understanding but also encourages more ethical decision-making.</p>
+</section>
+<section id="remember-data-represents-people" class="level3">
+<h3 class="anchored" data-anchor-id="remember-data-represents-people">Remember: Data Represents People!</h3>
+<p>At the end of the day, data science isn’t just about numbers—it’s about people. Every data point represents an individual with their own experiences, challenges, and aspirations. Keeping this in mind will help you approach your work with greater care, responsibility, and empathy.</p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Don’t get lost in the sauce! As a data scientist, you have the power to shape lives and have a real impact. Even if you don’t change the entire world, your work can still have a profound impact on countless individuals and families. Yes, it’s important to work efficiently and get things done. But never forget the why, and more importantly, the who behind every project you work on.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
