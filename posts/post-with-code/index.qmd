@@ -1,8 +1,8 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
-date: "2025-02-03"
-categories: [news, code, analysis]
+title: "Machine Learning Model Evaluation"
+author: "Ruby Higdon"
+date: "2025-02-14"
+categories: [machine learning, code]
 ---
 
 This is a post with executable code.
