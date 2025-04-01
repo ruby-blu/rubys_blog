@@ -2,8 +2,8 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html",
+      "/posts/humanizing-data/index.html",
+      "/posts/major-decisions/index.html",
       "/posts/welcome copy/index.html"
     ]
   }
