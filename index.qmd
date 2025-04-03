@@ -16,4 +16,4 @@ about:
 
 ---
 
-About this blog
+Hi! I'm Ruby Higdon, a senior at Brigham Young University-Idaho pursuing a degree in Data Science. This blog is a place to share my insights, experiences, and lessons learned as I transition from the classroom to the professional world. Whether you're interested in the technical aspects of data science, the skills needed to navigate real-world challenges, or the journey of learning and applying new concepts, this blog is a reflection of my ongoing journey in this exciting field.

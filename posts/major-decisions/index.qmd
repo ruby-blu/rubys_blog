@@ -1,11 +1,10 @@
 ---
 title: "Major Decisions"
 author: "Ruby Higdon"
-date: "2025-01-31"
-categories: [academics, career choices]
+date: "2025-03-31"
+description: "Finding my Flow"
+categories: ['Career Choices', 'Data Science', 'Academics']
 ---
-
-Finding my Flow
 
 ![](flow.jpeg)
 

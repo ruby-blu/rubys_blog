@@ -2,9 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/humanizing-data/index.html",
       "/posts/major-decisions/index.html",
-      "/posts/welcome copy/index.html"
+      "/posts/real-world/index.html",
+      "/posts/humanizing-data/index.html"
     ]
   }
 ]
